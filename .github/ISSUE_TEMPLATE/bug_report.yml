@@ -34,7 +34,7 @@ body:
     attributes:
       label: Can the issue be reproduced in our public sample?
       options:
-         - "Haven't checked"
+        - "Haven't checked"
         - "Yes"
         - "No"
     validations:
