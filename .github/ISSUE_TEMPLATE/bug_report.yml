@@ -1,5 +1,5 @@
 name: Bug Report
-description: File a bug report.
+description: File a bug report
 title: "[Bug]: "
 body:
   - type: markdown
@@ -25,6 +25,8 @@ body:
       options:
         - "Yes"
         - "No"
+        - "Haven't checked"
+    default: 2
     validations:
       required: true
 
@@ -35,6 +37,8 @@ body:
       options:
         - "Yes"
         - "No"
+        - "Haven't checked"
+    default: 2
     validations:
       required: true
   
@@ -53,7 +57,7 @@ body:
     id: app-identifier
     attributes:
       label: Provide your application identifier from the partner interface
-      description: Enter the app ID from your partner dashboard
+      description: Enter the app ID from your partner dashboard. Providing this information will help us resolve your issue faster
       placeholder: "123456789"
     validations:
       required: false
