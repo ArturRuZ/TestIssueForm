@@ -23,10 +23,9 @@ body:
     attributes:
       label: Does the issue occur in the latest SDK version?
       options:
+        - "Haven't checked"
         - "Yes"
         - "No"
-        - "Haven't checked"
-    default: 2
     validations:
       required: true
 
@@ -35,10 +34,9 @@ body:
     attributes:
       label: Can the issue be reproduced in our public sample?
       options:
+         - "Haven't checked"
         - "Yes"
         - "No"
-        - "Haven't checked"
-    default: 2
     validations:
       required: true
   
